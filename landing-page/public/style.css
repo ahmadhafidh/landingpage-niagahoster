@@ -1,0 +1,64 @@
+html body{
+    height: 100%;
+}
+
+.section-4 i{
+    color: limegreen;
+    margin-right: 50px;
+}
+
+.section-6 i{
+    color: limegreen;
+}
+
+.section-4 ul li:nth-child(even){
+    background: #efefef;
+}
+
+.btn{
+    border-radius: 20px;
+}
+
+.section-9{
+    width: 100%;
+}
+
+.pembayaran{
+    filter: saturate(0);
+    margin: 0px 5px;
+}
+
+.roboto{
+    font-family: 'Roboto', Sans-Serif;
+}
+
+.mont{
+    font-family: 'Montserrat', Sans-Serif;
+}
+
+#wrap{
+    position: relative;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.card ul li{
+    padding-bottom: 8px;
+}
+
+.divide{
+    padding-bottom: 838px;
+}
+
+@media screen and (max-width:500px){
+    .divide{
+        padding-bottom: 1850px;
+    }
+}
